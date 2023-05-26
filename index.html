@@ -1,15 +1,70 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="es">
 <head>
-    <meta charset = "UTF-8">
-    <title> Cursos de Alura </title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    
+    <title>Encriptador de Texto</title>
 </head>
 <body>
-    <ul>
-        <li> Vagrant </li>
-        <li> Docker </li>
-        <li> Ansible </li>
-        <li> Integración continua </li>
-    </ul>
+    <div class="contenedor_gral" id="contenedor_gral">
+        
+        <header>
+            <div class="contenedor_header">
+                <img class="logo_header" src="img/logo.png" alt="Logo">
+            </div>
+        </header>
+
+        <main>
+            <section class="first_sect">
+                <textarea class="text_area" name="text_area" id="text_area" placeholder="ingrese el texto aquí"></textarea>
+                <p class="advertencia">⚠️ Solo letras minúsculas y sin acentos</p>
+                <div class="contenedor_btn">
+                    <button class="btn_encriptar" id="btn_encriptar">Encriptar</button>
+                    <button class="btn_desencriptar" id="btn_desencriptar">Desencriptar</button>
+                    
+                </div>
+            
+            </section>
+
+            <section class="secound_sect">
+                <div class="contenedor_img ">
+                    <img class="img_encriptar" src="img/Muñeco.png" alt="Encriptar">
+                </div>
+                <div class="contenedor_subtit ">
+                    <h3 id="subtitulo">Ningún mensaje fue encontrado</h3>
+                </div>
+                <div class="contenedor_p ">
+                    <p id="parrafo">ingrese el texto que desea encriptar o desencriptar.</p>
+                </div><br>
+
+                <div class="contenedor_resultado">
+                    <p class="resultado">Este es tu ensaje:</p>
+                    <p class="resultado_texto" id="resultado_texto"></p>    
+                </div>
+
+                <div class="contenedor_btn_copiar">
+                    <button class="btn_copiar" id="btn_copiar">Copiar</button>
+                </div>
+
+            </section>
+
+        
+        </main>
+
+        <footer>
+            <div class="contenedor_footer">
+                <p class="copy">© 2023 - Todos los derechos reservados Alura Latam</p>
+                <p class="copy">by - John Lemus</p>
+
+            </div>
+
+        </footer>
+
+        <script src="js/script.js"></script>
+    </div>
 </body>
 </html>

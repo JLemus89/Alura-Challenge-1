@@ -1,0 +1,237 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightcyan;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background-color: lightcyan;
+}
+
+header img{
+    height: 48px;
+    width: 120px;
+    margin-left: 30px;
+    padding-top: 5px;
+}
+
+main{
+    width: 100%;
+    height: 600px;
+    background-color: lightcyan;  
+    display: flex;
+    justify-content: space-between;  
+}
+
+section{
+    width: 60%;
+    
+}
+
+.first_sect{
+    width: 60%;
+    background-color: lightcyan;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.text_area{
+    width: 80%;
+    height: 60%;
+    background-color: white;
+    border: 0;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 1em;
+    margin: auto;
+    resize: none;
+    outline: none;
+}
+
+.text_area:focus{
+    outline: none;
+}
+
+.resultado_texto{
+    width: 80%;
+    height: 60%;
+    border: 0;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 1em;
+    margin: auto;
+    resize: none;
+    outline: none;
+}
+
+.advertencia{
+    width: 50%;
+    margin-top: 20px;
+    
+    padding: 1.2em;
+}
+
+.contenedor_btn{
+    width: 100%;
+    height: 40%;
+    text-align: center;
+}
+
+
+.btn_encriptar{
+    color: white;
+    font-weight: bold;
+    padding: 24px;
+    gap: 8px;
+    width: 30%;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    
+}
+
+.btn_encriptar:hover{
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+.btn_desencriptar{
+    color: white;
+    font-weight: bold;
+    padding: 24px;
+    gap: 8px;
+    width: 30%;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    
+}
+
+.btn_desencriptar:hover{
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+.btn_limpiar{
+    color: white;
+    font-weight: bold;
+    padding: 24px;
+    gap: 8px;
+    width: 30%;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    
+}
+
+.btn_limpiar:hover{
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+
+
+.secound_sect{
+    margin-right: 3%;
+    width: 30%;
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.contenedor_img{
+    width: 100%;
+    height: 60%;
+    text-align: center;
+    background-color: white;
+    border-radius: 30px;
+    padding-top: 100px;
+}
+
+
+
+.img_encriptar{
+    width: 100%;
+    text-align: center;
+    background-color: white;
+}
+
+.contenedor_subtit, .contenedor_p{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.contenedor_subtit{
+    font-weight: bold;
+    
+    
+}
+
+.contenedor_resultado{
+    margin-top: 40px;
+    width: 100%;
+    height: 70%;
+    box-sizing: border-box;
+}
+
+.contenedor_btn_copiar{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+
+.btn_copiar{
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    gap: 8px;
+    width: 25%;
+    height: 50px;
+    background: #0A3871;
+    border-radius: 24px;
+}
+
+.btn_copiar:hover{
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+@media screen {
+    .contenedor_gral{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+footer{
+    width: 100%;
+    height: 60px;
+    background-color: lightcyan;
+    text-align: center;
+    margin-top: 75px;
+}
+
+
+
+
+
+.esconder{
+    display: none;
+}
